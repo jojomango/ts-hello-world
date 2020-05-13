@@ -1,13 +1,11 @@
 interface User {
   name: string;
   id: number;
-  // grade?: number;
 }
 
 const user1: User = {
   name: 'John',
-  id: 1,
-  // grade: 50
+  id: 1
 };
 
 class UserAccount {
